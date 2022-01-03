@@ -69,7 +69,6 @@ function App() {
   return (
     <Router>
       <Alert />
-
       <input type="checkbox" id="theme" />
       <div className={`App ${(status || modal) && "mode"}`}>
         <div className="main">
